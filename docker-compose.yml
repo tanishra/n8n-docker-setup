@@ -13,4 +13,3 @@ services:
     volumes:
       - ./n8n_data:/home/node/.n8n   # Persist workflows/data
     restart: unless-stopped
-    
